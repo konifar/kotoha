@@ -1,0 +1,28 @@
+{
+  "name": "Kotoha",
+  "short_name": "Kotoha",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Easy to quote a good phrase.",
+  "icons": {
+    "48":  "images/icon_48.jpg",
+    "128": "images/icon_128.jpg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": [
+        "css/jquery.atwho.css",
+        "css/kotoha.css"
+      ],
+      "js": [
+        "js/jquery-2.1.0.min.js",
+        "js/jquery.caret.min.js",
+        "js/jquery.atwho.js",
+        "js/underscore-min.js",
+        "js/xregexp-all-min.js",
+        "js/kotoha.js"
+      ]
+    }
+  ]
+}
