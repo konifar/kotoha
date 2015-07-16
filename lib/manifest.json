@@ -4,6 +4,10 @@
   "version": "0.1.0",
   "manifest_version": 2,
   "description": "Easy to quote a good phrase.",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/icon_48.png"
+  },
   "icons": {
     "48":  "images/icon_48.png",
     "128": "images/icon_128.png"

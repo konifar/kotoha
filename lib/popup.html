@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Kotoha</title>
+    <link rel="stylesheet" href="./css/popup.css" type="text/css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/jquery-ui.structure.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/jquery-ui.theme.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/jquery.tagsinput.css" type="text/css">
+  </head>
+  <body>
+    <div id="successContent" class="alert alert-success" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+      <span class="sr-only">Success:</span>
+      <span id="successMsg"></span>
+    </div>
+
+    <div id="alertContent" class="alert alert-danger" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+      <span class="sr-only">Error:</span>
+      <span id="errorMsg"></span>
+    </div>
+
+    <div id="mainContent">
+      <h4>Phrase  <small>Write your favorite one!</small></h4></p>
+      <textarea id="phraseBox" class="form-control" rows="3" placeholder="例 : 40秒で支度しな！"></textarea>
+      <h4>Tag  <small>Add such as title or character name!</small></h4></p>
+      <input id="tagBox" class="tag-input"></input>
+
+      <button id="saveBtn" type="submit" class="btn btn-primary">Save</button>
+    </div>
+
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/popup.js"></script>
+  </body>
+</html>
