@@ -8,12 +8,12 @@ Kotohaは、イケてる名言を簡単に引用できるようになるChrome E
 ## 単語から探す
 `/k` の後に単語をタイプすることで単語が含まれる名言を引用できます。
 
-![capture](https://raw.githubusercontent.com/konifar/kotoha/master/art/word_quote.png)
+![capture](https://raw.githubusercontent.com/konifar/kotoha/master/art/tag_quote.png)
 
 ## タグから探す
 `/t` の後に単語をタイプすることで単語が含まれる名言を引用できます。
 
-![capture](https://raw.githubusercontent.com/konifar/kotoha/master/art/tag_quote.png)
+![capture](https://raw.githubusercontent.com/konifar/kotoha/master/art/word_quote.png)
 
 ## 名言を登録する
 Chromeに追加された桜のアイコンから名言を登録できます。
