@@ -4,7 +4,6 @@ sass        = require 'gulp-sass'
 clean       = require 'gulp-clean'
 zip         = require 'gulp-zip'
 runSequence = require 'run-sequence'
-download    = require 'gulp-download'
 
 paths =
   lib: 'lib/**/*.*'
@@ -14,10 +13,6 @@ paths =
 gulp.task 'copy', ->
   gulp.src(paths.lib)
     .pipe(gulp.dest('build/'))
-
-gulp.task 'download', ->
-  download('http://horesase-boys.herokuapp.com/meigens.json')
-    .pipe(gulp.dest("lib/config"))
 
 gulp.task 'coffee', ->
   gulp.src(paths.js)
@@ -43,7 +38,7 @@ gulp.task 'zip', ->
     .pipe(zip('build.zip'))
     .pipe(gulp.dest('./'))
 
-gulp.task 'build',   ['copy', 'download', 'coffee', 'sass']
+gulp.task 'build',   ['copy', 'coffee', 'sass']
 gulp.task 'rebuild', -> runSequence('clean', 'build')
 gulp.task 'release', -> runSequence('clean', 'build', 'zip')
 gulp.task 'default', -> runSequence('clean', 'build', 'watch')

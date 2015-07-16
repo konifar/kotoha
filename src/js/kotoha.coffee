@@ -4,7 +4,7 @@ root_url = 'https://kotoha-server.herokuapp.com'
 atwhoOptions =
   at: "/"
   tpl: '<li class="kotoha" data-value="${text}"><img src="${icon}" /> ${text}</li>'
-  limit: 80
+  limit: 200
   display_timeout: 400
   search_key: null
   callbacks:
@@ -43,7 +43,5 @@ atwhoOptions =
               }
             callback phrases
 
-$(document).on 'focusin', (ev) ->
-  $this = $ ev.target
-  return unless $this.is 'textarea'
-  $this.atwho atwhoOptions
+jQuery ->
+  $('textarea').atwho atwhoOptions
