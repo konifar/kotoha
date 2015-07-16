@@ -1,5 +1,5 @@
 # Kotoha (ことは)
-Kotohaは、イケてる名言を簡単に引用できるようになるChrome Extensionです。
+Kotohaは、イケてる名言を簡単に引用できるようになる[Chrome Extension](https://chrome.google.com/webstore/detail/pbeimjenbibgkakjkpebcndmlbapgnph)です。
 
 ![capture](https://raw.githubusercontent.com/konifar/kotoha/master/art/quote_demo.gif)
 
