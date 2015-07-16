@@ -15,7 +15,7 @@ atwhoOptions =
       match[2]
 
     remote_filter: (query, callback) ->
-      return unless query || query.length < 3
+      return unless query || query.length < 4
       kind = query[0].toLowerCase()
       query = query.slice(1)
       if kind is "k"
