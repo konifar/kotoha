@@ -1,3 +1,6 @@
+root_url = 'https://kotoha-server.herokuapp.com'
+# root_url = 'http://kotoha-server.dev'
+
 validate = ->
   $alertContent = $('#alertContent')
   $phraseBox = $('#phraseBox')
@@ -13,7 +16,7 @@ validate = ->
 
 save = (text, tag_list)->
   $.ajax(
-    url: "http://kotoha-server.dev/api/phrases.json",
+    url: root_url + "/api/phrases.json",
     dataType: "json",
     type: 'POST',
     data: {
@@ -40,13 +43,13 @@ save = (text, tag_list)->
 
 jQuery ->
   $('#tagBox').tagsInput
-    'autocomplete_url': "http://kotoha-server.dev/api/tags.json",
+    'autocomplete_url': root_url + "/api/tags.json",
     'autocomplete':{
       selectFirst: true,
       autoFill: true,
       source: (request, response)->
         $.ajax
-          url: "http://kotoha-server.dev/api/tags.json",
+          url: root_url + "/api/tags.json",
           dataType: "json",
           data: {
             q: request.term

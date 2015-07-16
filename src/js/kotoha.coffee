@@ -1,3 +1,6 @@
+root_url = 'https://kotoha-server.herokuapp.com'
+# root_url = 'http://kotoha-server.dev'
+
 atwhoOptions =
   at: "/"
   tpl: '<li class="kotoha" data-value="${text}"><img src="${icon}" /> ${text}</li>'
@@ -17,7 +20,7 @@ atwhoOptions =
       query = query.slice(1)
       if kind is "k"
         if query
-          $.getJSON "http://kotoha-server.dev/api/phrases.json",
+          $.getJSON root_url + "/api/phrases.json",
             text: query
           ,(data) ->
             phrases = $.map data, (phrase) ->
@@ -29,7 +32,7 @@ atwhoOptions =
             callback phrases
       else if kind is "t"
         if query
-          $.getJSON "http://kotoha-server.dev/api/phrases.json",
+          $.getJSON root_url + "/api/phrases.json",
             tag: query
           ,(data) ->
             phrases = $.map data, (phrase) ->
