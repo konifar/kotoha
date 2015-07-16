@@ -1,7 +1,7 @@
 **※ 日本語ドキュメントは[こちら](https://github.com/konifar/kotoha/blob/master/README_JA.md)。**
 
 # Kotoha
-Kotoha is useful chrome extension that help you to quote a good phrase!
+Kotoha is useful [Chrome Extension](https://chrome.google.com/webstore/detail/pbeimjenbibgkakjkpebcndmlbapgnph) that help you to quote a good phrase!
 
 ![capture](https://raw.githubusercontent.com/konifar/kotoha/master/art/quote_demo.gif)
 
