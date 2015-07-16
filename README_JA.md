@@ -62,4 +62,4 @@ https://github.com/konifar/kotoha/blob/master/src/js/popup.coffee#L1-L2
 |[jQuery](http://jquery.com/)|みんな大好きjQuery。やっぱり小さいプロジェクトならjQueryが楽。|
 |[lttm-crx](https://github.com/fukayatsu/lttm-crx)|LGTM画像などを簡単に貼れるChrome Extension。ビルド構成などめちゃくちゃ参考になりました。|
 |[あにふれーず](http://aniphrase.com/)|[@kgmyshin](https://twitter.com/kgmyshin)さんの作ったアニメ名言サービス。APIが公開されたら速攻対応します。|
-|[夜桜四重奏 - ハナノウタ](http://yozakura-anime.jp/)|五十音ことはの「ショートカット！でっかい水槽！」にインスピレーションをもらいました。|
+|[夜桜四重奏 - ハナノウタ](http://yozakura-anime.jp/)|五十音ことはの「ショートカット！でっかい水槽！」にインスピレーションをもらいました。[夜桜四重奏 -ハナノウタ-　第1話「サクラサク」](http://www.nicovideo.jp/watch/1381113319)|
