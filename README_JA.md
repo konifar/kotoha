@@ -1,6 +1,8 @@
 # Kotoha (ことは)
 Kotohaは、イケてる名言を簡単に引用できるようになる[Chrome Extension](https://chrome.google.com/webstore/detail/pbeimjenbibgkakjkpebcndmlbapgnph)です。
 
+* Vimプラグインの[vim-kotoha](https://github.com/heavenshell/vim-kotoha)もあります。
+
 ![capture](https://raw.githubusercontent.com/konifar/kotoha/master/art/quote_demo.gif)
 
 # 使い方
@@ -63,3 +65,4 @@ https://github.com/konifar/kotoha/blob/master/src/js/popup.coffee#L1-L2
 |[lttm-crx](https://github.com/fukayatsu/lttm-crx)|LGTM画像などを簡単に貼れるChrome Extension。ビルド構成などめちゃくちゃ参考になりました。|
 |[あにふれーず](http://aniphrase.com/)|[@kgmyshin](https://twitter.com/kgmyshin)さんの作ったアニメ名言サービス。APIが公開されたら速攻対応します。|
 |[夜桜四重奏 - ハナノウタ](http://yozakura-anime.jp/)|五十音ことはの「ショートカット！でっかい水槽！」にインスピレーションをもらいました。[夜桜四重奏 -ハナノウタ-　第1話「サクラサク」](http://www.nicovideo.jp/watch/1381113319)|
+|[vim-kotoha](https://github.com/heavenshell/vim-kotoha)|[heavenshell](https://github.com/heavenshell)さんがVimで使えるようにしてくれました。 [http://d.hatena.ne.jp/heavenshell/20150725/1437836065]([Vim] Kotoha の Vim plugin を作った)|
