@@ -3,7 +3,7 @@
 # Kotoha
 Kotoha is useful [Chrome Extension](https://chrome.google.com/webstore/detail/pbeimjenbibgkakjkpebcndmlbapgnph) that help you to quote a good phrase!
 
-* [Awesome vim plugin](https://github.com/heavenshell/vim-kotoha) released! Thanks [heavenshell](https://github.com/heavenshell)!
+* [Awesome vim plugin](https://github.com/heavenshell/vim-kotoha) released! Thanks!
 
 ![capture](https://raw.githubusercontent.com/konifar/kotoha/master/art/quote_demo.gif)
 
