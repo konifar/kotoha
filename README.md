@@ -3,6 +3,8 @@
 # Kotoha
 Kotoha is useful [Chrome Extension](https://chrome.google.com/webstore/detail/pbeimjenbibgkakjkpebcndmlbapgnph) that help you to quote a good phrase!
 
+* [Awesome vim plugin](https://github.com/heavenshell/vim-kotoha) released! Thanks [heavenshell](https://github.com/heavenshell)!
+
 ![capture](https://raw.githubusercontent.com/konifar/kotoha/master/art/quote_demo.gif)
 
 # Usage
@@ -67,3 +69,4 @@ Or please contact from Twitter. [@konifar](https://twitter.com/konifar)
 |[lttm-crx](https://github.com/fukayatsu/lttm-crx)|Great Chrome Extension. This project has a good build structure.|
 |[あにふれーず](http://aniphrase.com/)|Animation phrase service by [@kgmyshin](https://twitter.com/kgmyshin). After provided API, I want to apply it to Kotoha!|
 |[夜桜四重奏 - ハナノウタ](http://yozakura-anime.jp/)|Kotoha is inspirated by 'Kotoha Isone', very cute character. [夜桜四重奏 -ハナノウタ-　第1話「サクラサク」](http://www.nicovideo.jp/watch/1381113319)|
+|[vim-kotoha](https://github.com/heavenshell/vim-kotoha)|Awesome vim plugin by by [heavenshell](https://github.com/heavenshell).|
