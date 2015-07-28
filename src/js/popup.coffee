@@ -10,7 +10,7 @@ validate = ->
     true
   else
     $phraseBox.addClass('error')
-    $alertContent.find('#errorMsg').text('Phrase must not be empty :(')
+    $alertContent.find('#errorMsg').text('名言が入力されていません (´・ω・｀)')
     $alertContent.show()
     false
 
@@ -25,19 +25,19 @@ save = (text, tag_list)->
     },
     success: (data)->
       if data.error_message
-        $('#alertContent').find('#errorMsg').text('Failed to save :(')
+        $('#alertContent').find('#errorMsg').text('保存に失敗しました (´・ω・｀)')
         $('#alertContent').show()
       else
         # Show alert
         $('#alertContent').hide()
-        $('#successContent').find('#successMsg').text('Saved successfuly! : 『' + data.text + '』')
+        $('#successContent').find('#successMsg').text('保存しました！ : 『' + data.text + '』')
         $('#successContent').show()
         # Clear
         $('#phraseBox').val('')
         $('#tagBox').importTags('');
         $('#saveBtn').removeClass('disabled')
   ).error(->
-    $('#alertContent').find('#errorMsg').text('Failed to save :(')
+    $('#alertContent').find('#errorMsg').text('保存に失敗しました (´・ω・｀)')
     $('#alertContent').show()
   )
 
@@ -65,7 +65,7 @@ jQuery ->
     'height':'100px',
     'width':'auto',
     'interactive': true,
-    'defaultText': 'Add a tag',
+    'defaultText': 'タグ入力',
     'removeWithBackspace' : true,
     'minChars': 0,
     'maxChars': 60

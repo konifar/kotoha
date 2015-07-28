@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./css/jquery-ui.structure.min.css" type="text/css">
     <link rel="stylesheet" href="./css/jquery-ui.theme.min.css" type="text/css">
     <link rel="stylesheet" href="./css/jquery.tagsinput.css" type="text/css">
+
+    <link rel="stylesheet" href="./css/jquery.atwho.css" type="text/css">
+    <link rel="stylesheet" href="./css/kotoha.css" type="text/css">
   </head>
   <body>
     <div id="successContent" class="alert alert-success" role="alert">
@@ -26,12 +29,17 @@
     </div>
 
     <div id="mainContent">
-      <h4>Phrase  <small>Write your favorite one!</small></h4></p>
-      <textarea id="phraseBox" class="form-control" rows="3" placeholder="例 : 40秒で支度しな！"></textarea>
-      <h4>Tag  <small>Add such as title or character name!</small></h4></p>
+      <h4>名言 : <small>好きな台詞を入力</small></h4></p>
+      <textarea id="phraseBox" class="form-control" rows="3" placeholder="(例) 40秒で支度しな！"></textarea>
+      <h4>タグ : <small>タイトルやキャラクター名を入力</small></h4></p>
       <input id="tagBox" class="tag-input"></input>
 
-      <button id="saveBtn" type="submit" class="btn btn-primary">Save</button>
+      <button id="saveBtn" type="submit" class="btn btn-primary">保存</button>
+
+      <hr />
+
+      <h4>Kotohaを試す</h4>
+      <textarea class="form-control" rows="3" placeholder="/t または /k の後にテキストを入力&#13;&#10;(例) /tエヴァ"></textarea>
     </div>
 
     <script src="js/jquery-2.1.0.min.js"></script>
@@ -39,5 +47,11 @@
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/jquery.tagsinput.js"></script>
     <script src="js/popup.js"></script>
+
+    <script src="js/jquery.caret.min.js"></script>
+    <script src="js/jquery.atwho.js"></script>
+    <script src="js/underscore-min.js"></script>
+    <script src="js/xregexp-all-min.js"></script>
+    <script src="js/kotoha.js"></script>
   </body>
 </html>
