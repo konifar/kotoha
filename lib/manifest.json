@@ -1,7 +1,7 @@
 {
   "name": "Kotoha",
   "short_name": "Kotoha",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manifest_version": 2,
   "description": "Easy to quote a good phrase.",
   "browser_action": {
