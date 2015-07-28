@@ -1,8 +1,8 @@
 {
   "name": "Kotoha",
   "short_name": "Kotoha",
-  "version": "0.1.1",
-  "manifest_version": 2,
+  "version": "0.1.2",
+  "manifest_version": 3,
   "description": "Easy to quote a good phrase.",
   "browser_action": {
     "default_popup": "popup.html",
