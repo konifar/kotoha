@@ -55,8 +55,8 @@ https://github.com/konifar/kotoha/blob/master/src/js/popup.coffee#L1-L2
 直接連絡いただく場合は、[@konifar](https://twitter.com/konifar)までお願いします。
 
 # 関連ツール
-* [Awesome vim plugin](https://github.com/heavenshell/vim-kotoha) by @heavenshell
-* [Awesome slack bot](https://github.com/tomoima525/kotoha-slack) by @tomoima525
+* [Awesome vim plugin](https://github.com/heavenshell/vim-kotoha) by [@heavenshell](https://github.com/heavenshell)
+* [Awesome slack bot](https://github.com/tomoima525/kotoha-slack) by [@tomoima525](https://github.com/tomoima525)
 
 # サンクス
 |タイトル|一言|
