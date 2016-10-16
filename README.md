@@ -3,8 +3,6 @@
 # Kotoha
 Kotoha is useful [Chrome Extension](https://chrome.google.com/webstore/detail/pbeimjenbibgkakjkpebcndmlbapgnph) that help you to quote a good phrase!
 
-* [Awesome vim plugin](https://github.com/heavenshell/vim-kotoha) released! Thanks!
-
 ![capture](https://raw.githubusercontent.com/konifar/kotoha/master/art/quote_demo.gif)
 
 # Usage
@@ -59,6 +57,10 @@ Please feel free to submit [Issue](https://github.com/konifar/kotoha/issues).
 PullRequest are also welcome.
 
 Or please contact from Twitter. [@konifar](https://twitter.com/konifar)
+
+# Awesome 3rd party tools
+* [Awesome vim plugin](https://github.com/heavenshell/vim-kotoha) by @heavenshell
+* [Awesome slack bot](https://github.com/tomoima525/kotoha-slack) by @tomoima525
 
 
 # Thanks
