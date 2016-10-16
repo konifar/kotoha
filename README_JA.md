@@ -1,8 +1,6 @@
 # Kotoha (ことは)
 Kotohaは、イケてる名言を簡単に引用できるようになる[Chrome Extension](https://chrome.google.com/webstore/detail/pbeimjenbibgkakjkpebcndmlbapgnph)です。
 
-* Vimプラグインの[vim-kotoha](https://github.com/heavenshell/vim-kotoha)もあります。
-
 ![capture](https://raw.githubusercontent.com/konifar/kotoha/master/art/quote_demo.gif)
 
 # 使い方
@@ -56,6 +54,9 @@ https://github.com/konifar/kotoha/blob/master/src/js/popup.coffee#L1-L2
 
 直接連絡いただく場合は、[@konifar](https://twitter.com/konifar)までお願いします。
 
+# 関連ツール
+* [Awesome vim plugin](https://github.com/heavenshell/vim-kotoha) by @heavenshell
+* [Awesome slack bot](https://github.com/tomoima525/kotoha-slack) by @tomoima525
 
 # サンクス
 |タイトル|一言|
