@@ -67,4 +67,5 @@ https://github.com/konifar/kotoha/blob/master/src/js/popup.coffee#L1-L2
 |[あにふれーず](http://aniphrase.com/)|[@kgmyshin](https://twitter.com/kgmyshin)さんの作ったアニメ名言サービス。APIが公開されたら速攻対応します。|
 |[夜桜四重奏 - ハナノウタ](http://yozakura-anime.jp/)|五十音ことはの「ショートカット！でっかい水槽！」にインスピレーションをもらいました。[夜桜四重奏 -ハナノウタ-　第1話「サクラサク」](http://www.nicovideo.jp/watch/1381113319)|
 |[vim-kotoha](https://github.com/heavenshell/vim-kotoha)|[heavenshell](https://github.com/heavenshell)さんがVimで使えるようにしてくれました。 [[Vim] Kotoha の Vim plugin を作った](http://d.hatena.ne.jp/heavenshell/20150725/1437836065)|
+|[kotoha-slack](https://github.com/tomoima525/kotoha-slack) | [tomoima525](https://github.com/tomoima525)さんがSlackコマンドで使えるようにしてくれました。[アニメの名言をSlackに引用できるkotoha-slackを作りました](http://tomoima525.hatenablog.com/entry/2016/10/16/171722)
 |[kotoha-alfred-workflow](https://github.com/kgmyshin/kotoha-aldred-workflow) | [kgmyshin](https://github.com/kgmyshin)さんがalfredで使えるようにしてくれました。 [kotohaのalfred workflow作りました](http://motida-japan.hatenablog.com/entry/2018/01/22/183000)
