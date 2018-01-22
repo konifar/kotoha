@@ -57,6 +57,7 @@ https://github.com/konifar/kotoha/blob/master/src/js/popup.coffee#L1-L2
 # 関連ツール
 * [Awesome vim plugin](https://github.com/heavenshell/vim-kotoha) by [@heavenshell](https://github.com/heavenshell)
 * [Awesome slack bot](https://github.com/tomoima525/kotoha-slack) by [@tomoima525](https://github.com/tomoima525)
+* [Awesome alfred workflow](https://github.com/kgmyshin/kotoha-aldred-workflow) by [@kgmyshin](https://github.com/kgmyshin)
 
 # サンクス
 |タイトル|一言|
