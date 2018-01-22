@@ -61,7 +61,7 @@ Or please contact from Twitter. [@konifar](https://twitter.com/konifar)
 # Awesome 3rd party tools
 * [Awesome vim plugin](https://github.com/heavenshell/vim-kotoha) by [@heavenshell](https://github.com/heavenshell)
 * [Awesome slack bot](https://github.com/tomoima525/kotoha-slack) by [@tomoima525](https://github.com/tomoima525)
-
+* [Awesome alfred workflow](https://github.com/kgmyshin/kotoha-aldred-workflow) by [@kgmyshin](https://github.com/kgmyshin)
 
 # Thanks
 |Title|Comment|
