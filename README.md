@@ -72,4 +72,5 @@ Or please contact from Twitter. [@konifar](https://twitter.com/konifar)
 |[あにふれーず](http://aniphrase.com/)|Animation phrase service by [@kgmyshin](https://twitter.com/kgmyshin). After provided API, I want to apply it to Kotoha!|
 |[夜桜四重奏 - ハナノウタ](http://yozakura-anime.jp/)|Kotoha is inspirated by 'Kotoha Isone', very cute character. [夜桜四重奏 -ハナノウタ-　第1話「サクラサク」](http://www.nicovideo.jp/watch/1381113319)|
 |[vim-kotoha](https://github.com/heavenshell/vim-kotoha)|Awesome vim plugin by by [heavenshell](https://github.com/heavenshell).|
-|[kotoha-alfred-workflow](https://github.com/kgmyshin/kotoha-aldred-workflow) | Awesome alfred workflow by [kgmyshin](https://github.com/kgmyshin)
+|[kotoha-slack](https://github.com/tomoima525/kotoha-slack) | Awesome slack command by [tomoima525](https://github.com/tomoima525).
+|[kotoha-alfred-workflow](https://github.com/kgmyshin/kotoha-aldred-workflow) | Awesome alfred workflow by [kgmyshin](https://github.com/kgmyshin).
